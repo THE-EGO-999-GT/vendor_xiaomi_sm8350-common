@@ -494,7 +494,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.citsensorservice@1.0 \
     vendor.xiaomi.hardware.citsensorservice@1.1 \
     com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.wifidisplayhal@1.0 \
     lib-imsvideocodec \
     lib-imsvt \
     lib-imsvtextutils \
@@ -530,6 +529,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.imsrtpservice@3.0 \
     vendor.qti.imsrtpservice@3.1 \
     CACertService \
@@ -612,11 +612,13 @@ PRODUCT_PACKAGES += \
     tftp_server \
     time_daemon \
     vppservice \
-    wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
     dpmd \
-    wfdservice64
+    wfdservice
+
+PRODUCT_PACKAGES += \
+    system_ext_priv-app_WfdService_lib_arm64_libwfdnative_so
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
