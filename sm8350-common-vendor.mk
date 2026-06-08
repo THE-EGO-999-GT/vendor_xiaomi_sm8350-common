@@ -612,6 +612,7 @@ PRODUCT_PACKAGES += \
     tftp_server \
     time_daemon \
     vppservice \
+    wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
     dpmd \
