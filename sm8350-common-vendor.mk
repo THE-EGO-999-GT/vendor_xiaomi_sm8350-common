@@ -533,6 +533,7 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     tcmclient \
     audiosphere \
+    camerax-vendor-extensions \
     com.android.hotwordenrollment.common.util \
     com.qti.dpmframework \
     dpmapi \
