@@ -545,6 +545,7 @@ PRODUCT_PACKAGES += \
     WfdCommon \
     tcmclient \
     audiosphere \
+    camerax-vendor-extensions \
     com.qti.dpmframework \
     dpmapi \
     qcrilhook \
