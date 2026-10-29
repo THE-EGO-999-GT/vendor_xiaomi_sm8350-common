@@ -588,7 +588,6 @@ PRODUCT_PACKAGES += \
     mi_thermald \
     mlid \
     mlipayd@1.1 \
-    msm_irqbalance \
     netmgrd \
     nv_mac \
     pd-mapper \
